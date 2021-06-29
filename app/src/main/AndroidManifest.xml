@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.socialnetworking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".utils.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SocialNetworking">
+
+        <activity
+            android:name="com.example.socialnetworking.ui.main.MainActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.example.socialnetworking.ui.editAccount.EditAccountActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.example.socialnetworking.ui.comment.CommentActivity" />
+        <activity android:name="com.example.socialnetworking.ui.profiles.ProfileActivity" />
+        <activity android:name="com.example.socialnetworking.ui.profileDetails.ProfileDetailsActivity" />
+        <activity android:name="com.example.socialnetworking.ui.login.LoginActivity" />
+        <activity android:name="com.example.socialnetworking.ui.signUp.SignUpActivity" />
+        <activity android:name=".ui.posts.PostsActivity"/>
+        <activity android:name=".ui.changePassword.ChangePasswordActivity"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+    </application>
+
+</manifest>

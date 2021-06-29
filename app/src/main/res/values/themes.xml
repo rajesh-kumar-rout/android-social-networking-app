@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SocialNetworking" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink_light</item>
+        <item name="colorPrimaryVariant">@color/pink_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_light</item>
+        <item name="colorSecondaryVariant">@color/pink_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="toolbar">
+        <item name="elevation">4dp</item>
+        <item name="background">@color/pink_light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.SocialNetworking">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="title_4">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_muted">
+        <item name="android:textColor">@color/grey_light</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_large">
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="outline_button" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconGravity">textStart</item>
+        <item name="textAllCaps">false</item>
+        <item name="strokeColor">@color/pink_dark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="text_1">
+        <item name="android:textSize">28sp</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="search_bar" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="colorSecondary">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Social Networking</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="add_post">Add Post</string>
+    <string name="profile">Profile</string>
+    <string name="description">Description</string>
+    <string name="upload">Upload</string>
+    <string name="save">Save</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="following">Following</string>
+    <string name="follower">Follower</string>
+    <string name="posts">Posts</string>
+    <string name="follow">Follow</string>
+    <string name="un_follow">UnFollow</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="details">Details</string>
+    <string name="bio">Bio</string>
+    <string name="comments">Comments</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="social_media">Social Media</string>
+    <string name="retry">Retry</string>
+    <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="msg_no_post">No Post Found</string>
+    <string name="msg_no_profiles">No Profiles Found</string>
+    <string name="msg_no_comment">No Comment Found</string>
+    <string name="msg_signed_up">Sign Up Successfully</string>
+    <string name="msg_new_sign_up">NEW HERE? SIGN UP</string>
+    <string name="msg_login">HAVE AN ACCOUNT ? LOGIN</string>
+    <string name="msg_password_changed">Password Changed Successfully</string>
+    <string name="msg_no_image_selected">No Image Selected</string>
+    <string name="msg_wait">Please wait . . . . </string>
+    <string name="msg_post_added">Post Added Successfully</string>
+    <string name="msg_your_comment">Your Comment</string>
+    <string name="msg_profile_updated">Profile Updated Successfully</string>
+</resources>

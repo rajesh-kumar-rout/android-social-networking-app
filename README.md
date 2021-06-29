@@ -1,1 +1,1 @@
-# Android-Social-Networking-App
+# Android Social Networking App
